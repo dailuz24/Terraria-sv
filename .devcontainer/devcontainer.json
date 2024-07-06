@@ -1,0 +1,16 @@
+{
+    "name": "Terraria TShock Server",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    },
+    "postCreateCommand": "sh setup.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "eamodio.gitlens"
+            ]
+        }
+    }
+}
